@@ -180,6 +180,10 @@ select {
   transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.accordion-item.active .accordion-content {
+  max-height: 16rem;
+}
+
 .accordion-content p {
   color: var(--purple-600);
   line-height: 1.5;
@@ -215,10 +219,6 @@ select {
   border-bottom: 4px solid var(--purple-600);
 }
 
-.accordion-item.active .accordion-content {
-  max-height: 16rem;
-}
-
 .accordion-icon {
   width: 1.875rem;
   height: 1.875rem;
@@ -231,25 +231,12 @@ select {
   filter: brightness(0.8);
 }
 
-.accordion-item.active .accordion-icon {
-  transform: rotate(180deg);
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .card {
-    transition: none;
-  }
-
-  .accordion-header span {
-    transition: none;
-  }
-
-  .accordion-content {
-    transition: none;
-  }
-
+  .card,
+  .accordion-header span,
+  .accordion-content,
   .accordion-icon {
-    transition: none;
-    transform: none;
+    transition: none !important;
+    transform: none !important;
   }
 }
