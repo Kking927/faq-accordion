@@ -9,7 +9,7 @@
   --font-main: "Work Sans", sans-serif;
 
   /* Font Sizes */
-  --title: clamp(3rem, 2.5rem + 2vw, 4rem); /* 48px - 64px */
+  --title: clamp(2.5rem, 1.648rem + 1.5vw, 3.5rem); /* 32 - 48px */
   --heading: 1.125rem; /* 18px */
   --body: 1rem; /* 16px */
 
@@ -92,7 +92,7 @@ select {
 }
 
 .container {
-  max-width: 40.5rem;
+  max-width: 42rem;
   margin: clamp(-8.5rem, -6.5rem - 4vw, -5.5rem) auto 5rem;
   padding-inline: clamp(1rem, 0.765rem + 1vw, 1.5rem);
   position: relative;
@@ -134,7 +134,7 @@ select {
 }
 
 /* ==========================================
-   PARENT CONTAINER (.accordion-item)
+   PARENT CONTAINER
    ========================================== */
 .accordion-item {
   width: 100%;
@@ -146,25 +146,11 @@ select {
 }
 
 .accordion-item:last-child {
-  border-bottom: 1px solid transparent;
+  border-bottom: transparent;
 }
 
-/* Pseudo-state overrides */
 .accordion-item:hover {
-  border-left: 4px solid var(--purple-600);
-}
-
-.accordion-item:last-child:hover {
-  border-bottom: 1px solid var(--purple-100);
-}
-
-/* Active state overrides (highest specificity for item) */
-.accordion-item.active {
-  border: 4px solid var(--purple-600);
-}
-
-.accordion-item:last-child.active {
-  border-bottom: 4px solid var(--purple-600);
+  border: 2px solid var(--purple-600);
 }
 
 /* ==========================================
@@ -192,7 +178,10 @@ select {
   transition: color 0.25s ease;
 }
 
-/* Header Icon child */
+.accordion-header span:hover {
+  color: var(--purple-600);
+}
+
 .accordion-icon {
   width: clamp(1.5rem, 1.364rem + 0.68vw, 1.875rem);
   height: clamp(1.5rem, 1.364rem + 0.68vw, 1.875rem);
@@ -200,25 +189,18 @@ select {
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Focus states */
 .accordion-header:focus-visible {
   outline: 3px solid var(--purple-600);
   outline-offset: 4px;
   border-radius: 0.25rem;
 }
 
-/* Hover states */
-.accordion-header:hover {
-  color: var(--purple-600);
-}
-
 .accordion-header:hover .accordion-icon {
-  transform: scale(1.15);
   filter: brightness(0.8);
 }
 
 /* ==========================================
-   EXPANDABLE CONTENT PANEL (.accordion-content)
+   EXPANDABLE CONTENT PANEL
    ========================================== */
 .accordion-content {
   max-height: 0;
