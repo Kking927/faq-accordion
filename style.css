@@ -9,7 +9,7 @@
   --font-main: "Work Sans", sans-serif;
 
   /* Font Sizes */
-  --title: clamp(2rem, 1.6rem + 2vw, 3rem); /* 32px - 48px */
+  --title: clamp(2rem, 1.5rem + 2.5vw, 3.25rem); /* 32px - 52px */
   --heading: 1.125rem; /* 18px */
   --body: 1rem; /* 16px */
 
@@ -92,7 +92,7 @@ select {
 }
 
 .container {
-  max-width: 42rem;
+  max-width: 40.5rem;
   margin: clamp(-8.5rem, -6.5rem - 4vw, -5.5rem) auto 5rem;
   padding-inline: clamp(1rem, 0.765rem + 1vw, 1.5rem);
   position: relative;
