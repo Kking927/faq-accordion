@@ -9,7 +9,7 @@
   --font-main: "Work Sans", sans-serif;
 
   /* Font Sizes */
-  --title: clamp(2rem, 1.648rem + 1.5vw, 3rem); /* 32 - 48px */
+  --title: clamp(2.25rem, 1.648rem + 1.5vw, 3.25rem); /* 32 - 48px */
   --heading: 1.125rem; /* 18px */
   --body: 1rem; /* 16px */
 
@@ -165,7 +165,6 @@ select {
   border-bottom: 4px solid var(--purple-600);
 }
 
-
 /* ==========================================
    INTERACTIVE HEADER (.accordion-header)
    ========================================== */
@@ -187,7 +186,7 @@ select {
 .accordion-header span {
   font-size: var(--heading);
   color: var(--purple-950);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-semibold);
   transition: color 0.25s ease;
 }
 
