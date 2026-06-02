@@ -10,9 +10,9 @@ accordionHeaders.forEach(header => {
     
     // Check if the item is now open and swap the image source accordingly
     if (accordionItem.classList.contains('active')) {
-      icon.src = 'https://raw.githubusercontent.com/Kking927/faq-accordion/2ef7f1cf618954195107aa067a8c9755ac9637f9/images/icon-minus.svg';
+      icon.src = 'images/icon-minus.svg';
     } else {
-      icon.src = 'https://raw.githubusercontent.com/Kking927/faq-accordion/2ef7f1cf618954195107aa067a8c9755ac9637f9/images/icon-plus.svg';
+      icon.src = 'images/icon-plus.svg';
     }
   });
 });
