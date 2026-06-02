@@ -45,7 +45,6 @@ html {
 body {
   font-family: var(--font-main);
   font-size: var(--body);
-  font-weight: var(--fw-regular);
   line-height: 1.5;
   background-color: var(--purple-100);
   min-height: 100vh;
@@ -130,6 +129,7 @@ select {
 
 .title {
   font-size: var(--title);
+  font-weight: var(--fw-bold);
   color: var(--purple-950);
 }
 
@@ -202,14 +202,9 @@ select {
 
 /* Focus states */
 .accordion-header:focus-visible {
-  outline: 3px dashed var(--purple-600);
+  outline: 3px solid var(--purple-600);
   outline-offset: 4px;
   border-radius: 0.25rem;
-  color: var(--purple-600);
-}
-
-.accordion-header:focus-visible span {
-  color: var(--purple-600);
 }
 
 /* Hover states */
@@ -217,18 +212,9 @@ select {
   color: var(--purple-600);
 }
 
-.accordion-header:hover span {
-  color: var(--purple-600);
-}
-
 .accordion-header:hover .accordion-icon {
   transform: scale(1.15);
   filter: brightness(0.8);
-}
-
-/* Active overrides for header text */
-.accordion-item.active span {
-  color: var(--purple-600);
 }
 
 /* ==========================================
