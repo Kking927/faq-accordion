@@ -125,6 +125,7 @@ select {
   padding-inline-start: clamp(0.75rem, 0.682rem + 0.34vw, 1rem);
   width: 100%;
   gap: clamp(1rem, 0.765rem + 1vw, 1.5rem);
+  margin-block-end: 0.5rem;
 }
 
 .title {
