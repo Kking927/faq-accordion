@@ -92,7 +92,7 @@ select {
 }
 
 .container {
-  max-width: 41rem;
+  max-width: 42rem;
   margin: clamp(-10.5rem, -5.5rem - 4vw, -5.5rem) auto 5rem;
   padding-inline: clamp(1rem, 0.765rem + 1vw, 1.5rem);
   position: relative;
