@@ -19,7 +19,7 @@
   --fw-bold: 700;
 
   /*   Spacing */
- --card-padding: clamp(1.125rem, 0.875rem + 1.25vw, 1.75rem); /* 18px - 28px */
+ --card-padding: clamp(1rem, 0.8rem + 1vw, 1.5rem); /* 16px - 24px */
   
 /*   Styling */
   --box-shadow: 0px 12px 24px rgba(47, 21, 51, 0.06);
@@ -92,7 +92,7 @@ select {
 }
 
 .container {
-  max-width: 42rem;
+  max-width: 41rem;
   margin: clamp(-10.5rem, -5.5rem - 4vw, -5.5rem) auto 5rem;
   padding-inline: clamp(1rem, 0.765rem + 1vw, 1.5rem);
   position: relative;
