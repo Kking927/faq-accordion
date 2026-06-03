@@ -10,7 +10,7 @@
 
   /* Font Sizes */
   --title: clamp(2rem, 1.4rem + 3vw, 3.5rem); /* 32px - 56px */*/
-  --heading: 1.25rem; /* 20px */
+  --heading: 1.5rem; /* 24px */
   --body: 1rem; /* 16px */
 
   /* Font Weights */
