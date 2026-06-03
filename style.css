@@ -9,7 +9,7 @@
   --font-main: "Work Sans", sans-serif;
 
   /* Font Sizes */
-  --title: clamp(2rem, 1.5rem + 2.5vw, 3.25rem); /* 32px - 52px */
+  --title: clamp(2rem, 1.4rem + 3vw, 3.5rem); /* 32px - 56px */*/
   --heading: 1.125rem; /* 18px */
   --body: 1rem; /* 16px */
 
