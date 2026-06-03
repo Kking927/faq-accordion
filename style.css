@@ -10,7 +10,7 @@
 
   /* Font Sizes */
   --title: clamp(2rem, 1.4rem + 3vw, 3.5rem); /* 32px - 56px */*/
-  --heading: 1.5rem; /* 24px */
+  --heading: 2rem; /* 32px */
   --body: 1rem; /* 16px */
 
   /* Font Weights */
@@ -19,7 +19,7 @@
   --fw-bold: 700;
 
   /*   Spacing */
-  --card-padding: clamp(1rem, 0.8rem + 1vw, 1.5rem); /* 16px - 24px */
+ --card-padding: clamp(1.25rem, 0.95rem + 1.5vw, 2rem); /* 20px - 32px */
   
 /*   Styling */
   --box-shadow: 0px 12px 24px rgba(47, 21, 51, 0.06);
